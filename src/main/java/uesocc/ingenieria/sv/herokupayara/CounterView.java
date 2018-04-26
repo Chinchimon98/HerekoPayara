@@ -7,12 +7,12 @@ package uesocc.ingenieria.sv.herokupayara;
 
 import java.io.Serializable;
 import javax.faces.bean.ViewScoped;
-import javax.inject.Named;
- 
-@Named
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean
 @ViewScoped
-public class ManagedBean implements Serializable{
-   
+public class CounterView implements Serializable {
+     
     private int number;
  
     public int getNumber() {
